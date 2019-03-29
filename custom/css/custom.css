@@ -1,0 +1,132 @@
+.row{
+	margin:0;
+}
+.tableLink{
+	color:black;
+}
+.tableLink:hover{
+	color:black;
+}
+hr{
+	background-color:white;
+}
+.text-black{
+	color:black !important;
+}
+.chat_box,.msg_box{
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	background:white;
+	width: 280px;
+	border-radius: 7px 7px 0 0;
+}
+.chat_head,.msg_head{
+    background-color: #444;
+	padding: 15px;
+	color:white;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+}
+.chat_body{
+	height: 400px;
+	overflow: auto;
+	overflow-x:hidden;
+	display: none;
+}
+.chat_user{
+	cursor:pointer ;
+}
+.msg_box{
+	display: none;
+	right:300px;
+	width:270px;
+}
+.msg_box > .msg_head{
+	border-bottom:2px solid #445;
+	padding:10px;
+	box-shadow:0px 0px 1px black;
+}
+.msg_body,.msg_body_teacher{
+	overflow:auto;
+	overflow-x:hidden;
+	height:250px;
+	padding-bottom: 3px;
+	text-transform: capitalize;
+	border:1px solid gray;
+	border-bottom:none;
+}
+#chat_message{
+	height:50px;
+	width:100%;
+	padding-left:8px;
+	border:none;
+	outline: none;
+	border-top:1px solid gray;
+	resize:none;
+}
+.msg_a{
+	margin-top:8px;
+	margin-left: 20px;
+	padding:10px;
+	padding-bottom: 0;
+	background:#bdc3c7;
+	right:10px;
+	position:relative;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 1px gray;
+	border-right:1px solid gray;
+	border-bottom:2px solid gray;
+	overflow-wrap: break-word;
+}
+.msg_a::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:-28px;
+	top:7px;
+	border:15px solid;
+	border-color:transparent #bdc3c7 transparent transparent;
+}
+.msg_b{
+	margin-top:8px;
+	margin-right: 20px;
+	padding:10px;
+	padding-bottom: 0;
+	left:10px;
+	background:#BDC3B0;
+	position:relative;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 1px gray;
+	border-left:1px solid gray;
+	border-bottom:2px solid gray;
+	overflow-wrap: break-word;
+}
+.msg_b::after{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:0px;
+	right:-28px;
+	top:7px;
+	border:15px solid;
+	border-color:transparent transparent transparent #BDC3B0;
+}
+.date_time{
+	margin-top:3px;
+	border-top:1px solid white;
+	padding-top:3px;
+	font-size: 11px;
+}
+.close_chat{
+	color:black;
+	font-weight: bolder;
+	padding:0 5px 0 5px;
+}
+.close_chat:hover{
+	color:#E74C82;
+}
+.marginclass{
+	margin-left: 8rem;
+}
