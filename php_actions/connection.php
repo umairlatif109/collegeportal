@@ -1,8 +1,8 @@
 <?php 
     $server = "localhost";
-    $username = "id9074085_root";
-    $password = "123456";
-    $database = "id9074085_collegeportal";
+    $username = "root";
+    $password = "";
+    $database = "collegeportal";
     
     $con = mysqli_connect($server,$username,$password,$database);
     
